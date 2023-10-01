@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    position: relative;
+}
+.add-config, .config-actions span {
+    background-color: #2c3e50;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.add-config:hover, .config-actions span:hover {
+    background-color: #34495e;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    cursor: default;
+    user-select: none;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #34495e;
+    color: white;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+.menu-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #34495e;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.menu-item:hover {
+    background-color: #2c3e50;
+}
+.user-menu {
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.user-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #34495e;
+    width: 100%;
+    border-radius: 5px;
+    transition: display 0.3s;
+}
+.user-menu:hover .user-dropdown {
+    display: block;
+}
+.user-dropdown a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+.user-dropdown a:hover {
+    background-color: #2c3e50;
+}
+.btn-add-config {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+}
+.btn-add-config:hover {
+    background-color: #34495e;
+}
