@@ -1,2 +1,2 @@
-# AdminHub
-This project makes to help system administrators configure network devices easily
+# SpringBootSecurity
+This repository saves Spring Boot Secury configuration by 2023 version.
